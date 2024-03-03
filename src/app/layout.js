@@ -17,7 +17,8 @@ import {
   NavbarLink,
   NavbarToggle,
 } from 'flowbite-react';
-
+import { ThemeModeScript } from 'flowbite-react';
+import { DarkThemeToggle, Flowbite } from 'flowbite-react';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -28,13 +29,15 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-      <html lang="en">
+      <html lang="en" className="dark">
       <Head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <title>Mikael JUILLET</title>
+        <ThemeModeScript />
       </Head>
 
       <body className={inter.className}>
+      <Flowbite>
 
       <Navbar fluid rounded>
         <NavbarBrand href="/">
@@ -50,7 +53,7 @@ export default function RootLayout({ children }) {
         </NavbarCollapse>
       </Navbar>
 
-      <div className="p-4 ">
+      <div className="p-4 bg-gray-100 dark:bg-gray-900">
         {children}
 
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8"/>
@@ -75,7 +78,7 @@ export default function RootLayout({ children }) {
               <span className="sr-only">GitHub account</span>
             </a>
             <a href="mailto:juillet.mikael@gmail.com"
-               className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+               className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5 align-middle">
               <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                    viewBox="0 0 24 24">
                 <path
@@ -86,9 +89,11 @@ export default function RootLayout({ children }) {
               <span className="sr-only">Mail</span>
             </a>
           </div>
+          <DarkThemeToggle />
         </div>
       </div>
       <Script src="../path/to/flowbite/dist/flowbite.min.js"></Script>
+      </Flowbite>
       </body>
       </html>
   );
