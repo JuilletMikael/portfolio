@@ -30,7 +30,7 @@ export default function Page() {
                                     Duration
                                 </th>
                                 <td className="px-6 py-4">
-                                    June 2023 (90 hours)
+                                    December 2023
                                 </td>
 
                             </tr>
@@ -40,7 +40,7 @@ export default function Page() {
                                     Stack
                                 </th>
                                 <td className="px-6 py-4">
-                                    Vite, ViteTest, Threejs
+                                    PHP, Laravel
                                 </td>
 
                             </tr>
@@ -82,7 +82,7 @@ export default function Page() {
             </div>
             <div className="my-4">
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">Objective</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">Objective</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         The primary aim of this project is to develop a robust news management system using PHP with the
                         Laravel framework. The goal is to create a user-friendly platform that efficiently handles the
@@ -91,20 +91,20 @@ export default function Page() {
                     </p>
                 </div>
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">My work</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">My work</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         The development process involves a meticulous approach, leveraging the Laravel framework for
                         efficient PHP development. The frontend is crafted using a combination of HTML, CSS, and
                         JavaScript to create a visually appealing and interactive news platform. Integration with
-                        Laravel's Eloquent ORM ensures a smooth interaction with the database, facilitating easy content
-                        management. The system's security is reinforced through Laravel's built-in authentication
+                        Laravel&#39;s Eloquent ORM ensures a smooth interaction with the database, facilitating easy content
+                        management. The system&#39;s security is reinforced through Laravel&#39;s built-in authentication
                         system, safeguarding user accounts and data.
                     </p>
                 </div>
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">What I learn</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">What I learn</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                        Throughout this project, I've deepened my proficiency in PHP, specifically within the Laravel
+                        Throughout this project, I&#39;ve deepened my proficiency in PHP, specifically within the Laravel
                         framework, enhancing my skills in database management, security implementation, and frontend
                         development. The project has provided valuable insights into creating user-friendly interfaces
                         for content management systems, emphasizing a balance between aesthetics and functionality.

@@ -91,7 +91,7 @@ export default function Page() {
             </div>
             <div className="my-4">
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">Objective</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">Objective</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         The primary goal of this project is to create an interactive 3D map of the solar system,
                         allowing users to explore and discover the planets and their satellites. The interactive map
@@ -104,7 +104,7 @@ export default function Page() {
                     </p>
                 </div>
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">My work</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">My work</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         The development process involves meticulous attention to detail, employing technologies like
                         Tailwind CSS and JavaScript for the frontend, ensuring both aesthetic appeal and functional
@@ -118,7 +118,7 @@ export default function Page() {
                     </p>
                 </div>
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">What I learn</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">What I learn</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         Throughout this project, I enhanced my skills in Tailwind CSS, delved into JavaScript, and
                         ventured into UI/UX design using Figma. The redesign aimed not only at aesthetic improvements
@@ -128,7 +128,7 @@ export default function Page() {
                     </p>
                 </div>
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">Dificultes</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">Dificultes</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         One significant challenge faced during the project was ensuring the responsiveness of the
                         website, demanding careful consideration of breakpoints, flexible grids, and media queries.
@@ -137,7 +137,7 @@ export default function Page() {
                     </p>
                 </div>
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">Future</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">Future</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         In the course of 2024, I would like to improve this project by applying kepler&#39;s and newton&#39;s laws
                         in order to have accurate planet displacements, and I will take the opportunity to improve the

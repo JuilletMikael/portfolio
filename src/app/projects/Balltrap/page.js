@@ -30,7 +30,7 @@ export default function Page() {
                                     Duration
                                 </th>
                                 <td className="px-6 py-4">
-                                    June 2023 (90 hours)
+                                    January 2024
                                 </td>
 
                             </tr>
@@ -40,7 +40,7 @@ export default function Page() {
                                     Stack
                                 </th>
                                 <td className="px-6 py-4">
-                                    Vite, ViteTest, Threejs
+                                    Python
                                 </td>
 
                             </tr>
@@ -50,7 +50,7 @@ export default function Page() {
                                     Position
                                 </th>
                                 <td className="px-6 py-4">
-                                    Developer, Designer
+                                    Developer
                                 </td>
                             </tr>
                             </tbody>
@@ -82,18 +82,18 @@ export default function Page() {
             </div>
             <div className="my-4">
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">Objective</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">Objective</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                        The primary goal of this project is to conduct a detailed study of the disc's behavior from the
+                        The primary goal of this project is to conduct a detailed study of the disc&#39;s behavior from the
                         moment it is launched by the machine until the point where the ball hits it. The disc is
                         considered as a point mass moving in a parabolic trajectory. This parabola is predetermined and
                         not subject to parameters.
                     </p>
                 </div>
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">My work</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">My work</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                        The development process involves creating a Python program to visualize the disc's trajectory
+                        The development process involves creating a Python program to visualize the disc&#39;s trajectory
                         and determine the point of impact with the shot. The program allows users to set the angle and
                         location of the shot, represented by a line in the same plane as the predetermined parabola. The
                         interface is designed with careful consideration for user experience.
@@ -101,11 +101,11 @@ export default function Page() {
                         The resolution of the interception between the parabola and the line is implemented with a
                         systematic approach, leveraging knowledge of solving systems. The final presentation of the
                         program demonstrates the winning shot and the time it takes to execute, providing a clear and
-                        visually appealing representation of the disc's movement.
+                        visually appealing representation of the disc&#39;s movement.
                     </p>
                 </div>
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">What I learn</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">What I learn</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         Throughout this project, I have honed my skills in Python programming, system-solving
                         techniques, and user interface design, ensuring that the program meets the specified objectives

@@ -84,7 +84,7 @@ export default function Page() {
             </div>
             <div className="my-4">
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">Objective</h5>
+                    <h5 className="text-xl font-bold text-black dark:text-white">Objective</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         The primary goal of this project is to create a conventional weather website with a significant
                         twist: replacing weather icons with dynamic 3D models. The aim is to provide users with an
@@ -94,7 +94,7 @@ export default function Page() {
                     </p>
                 </div>
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">My work</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">My work</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         The development process involves meticulous attention to detail, utilizing technologies such as
                         Three.js for 3D rendering and interaction, along with HTML, CSS, and JavaScript for frontend
@@ -105,13 +105,13 @@ export default function Page() {
                     </p>
                 </div>
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">What I learn</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">What I learn</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         Throughout this project, I enhanced my skills in Three.js.
                     </p>
                 </div>
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">Dificultes</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">Dificultes</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         One significant challenge faced during the project was ensuring the responsiveness of the
                         website, demanding careful consideration of breakpoints, flexible grids, and media queries.

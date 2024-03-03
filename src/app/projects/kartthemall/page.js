@@ -83,7 +83,7 @@ export default function Page() {
             </div>
             <div className="my-4">
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">Objective</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">Objective</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         During my final year of vocational training in computer science, I had the honor of being
                         selected with two of my colleagues by my supervisor to develop a game for presentation at
@@ -104,7 +104,7 @@ export default function Page() {
                     </p>
                 </div>
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">NumerikGames festival</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">NumerikGames festival</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         Our participation in the Numerik Games Festival yielded a remarkable experience, characterized
                         by an influx of visitors, positive feedback on our game, and meaningful connections within the
@@ -113,7 +113,7 @@ export default function Page() {
                     </p>
                 </div>
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">My work</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">My work</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         My central role encompassed the meticulous design of maps and their blocking, involving
                         conceptualization, drawing, and adaptation to the flow of players to create an immersive gaming
@@ -128,7 +128,7 @@ export default function Page() {
                     </p>
                 </div>
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">What I learn</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">What I learn</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         This significant project allowed me to refine my time management and enhance my teamwork skills,
                         both crucial qualities in a game development environment. I gained substantial expertise with
@@ -138,7 +138,7 @@ export default function Page() {
                     </p>
                 </div>
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">Dificultes</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">Dificultes</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         Although exciting, the project was not without its challenges. My main difficulty lies in
                         accurately estimating the duration of tasks. My inclination towards optimism regarding task
@@ -147,7 +147,7 @@ export default function Page() {
                     </p>
                 </div>
                 <div className="mb-4">
-                    <h5 className="text-xl font-bold dark:text-white">Future</h5>
+                    <h5 className="text-xl font-bold dark:text-white text-black">Future</h5>
                     <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                         I maintain active involvement in this project, collaborating diligently with my colleagues
                         outside of working hours to continue refining it. Our ultimate goal is to publish it on video

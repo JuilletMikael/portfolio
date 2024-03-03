@@ -69,7 +69,7 @@ export default function Page() {
 
                     <div className="my-4">
                         <div className="mb-4">
-                            <h5 className="text-xl font-bold dark:text-white">Objective</h5>
+                            <h5 className="text-xl font-bold dark:text-white text-black">Objective</h5>
                             <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                                 In 2022, I started a course that delved into the creation of an online portfolio. For this course, I
                                 crafted my inaugural portfolio, a significant endeavor tainted by numerous issues in
@@ -86,7 +86,7 @@ export default function Page() {
                             </p>
                         </div>
                         <div className="mb-4">
-                            <h5 className="text-xl font-bold dark:text-white">My work</h5>
+                            <h5 className="text-xl font-bold dark:text-white text-black">My work</h5>
                             <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                                 This redesign venture was not merely about aesthetics; it represented a comprehensive
                                 improvement in functionality and user interaction. By incorporating the principles of
@@ -97,7 +97,7 @@ export default function Page() {
                             </p>
                         </div>
                         <div className="mb-4">
-                            <h5 className="text-xl font-bold dark:text-white">What I learn</h5>
+                            <h5 className="text-xl font-bold dark:text-white text-black">What I learn</h5>
                             <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                                 The portfolio overhaul served as a profound learning experience, allowing me to refine
                                 my skills in Tailwind CSS, deepen my understanding of JavaScript, and venture into the
@@ -107,7 +107,7 @@ export default function Page() {
                             </p>
                         </div>
                         <div className="mb-4">
-                            <h5 className="text-xl font-bold dark:text-white">Dificultes</h5>
+                            <h5 className="text-xl font-bold dark:text-white text-black">Dificultes</h5>
                             <p className="text-left rtl:text-right text-gray-500 dark:text-gray-400">
                                 One of the significant challenges encountered in this process was ensuring the
                                 responsiveness of the website across various devices. Navigating the intricacies of
