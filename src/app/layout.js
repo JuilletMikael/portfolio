@@ -38,7 +38,6 @@ export default function RootLayout({ children }) {
 
       <body className={inter.className}>
       <Flowbite>
-
       <Navbar fluid rounded>
         <NavbarBrand href="/">
           <Image className="w-10 h-10 rounded-full mr-2" src={profilePic} alt="Mikael JUILLET"/>
@@ -54,7 +53,9 @@ export default function RootLayout({ children }) {
       </Navbar>
 
       <div className="p-4 bg-gray-100 dark:bg-gray-900">
-        {children}
+        <main>
+          {children}
+        </main>
 
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8"/>
         <div className="sm:flex sm:items-center sm:justify-between">

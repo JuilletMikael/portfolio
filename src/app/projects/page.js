@@ -3,6 +3,9 @@ import Link from 'next/link';
 import KartThemAll from '/public/projects/Kartthemall/kta-800-800.jpg';
 import portfolio from '/public/projects/portfolio/portfolio-800-800.png';
 import stellarmap from '/public/projects/stellarmap/stlm-800-800.png';
+import Balltrap from "../../../public/projects/Balltrap/800-800.jpg";
+import newsapp from "../../../public/projects/newsapp/800-800.jpg";
+import weather from "../../../public/projects/weather/800-800.jpg";
 
 
 export default function Page() {
@@ -55,6 +58,48 @@ export default function Page() {
                             </Link>
                             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                                 StellarMap represent the solar system on an interactive 3D map.
+                            </p>
+                        </Link>
+
+                        <Link href="/projects/Balltrap" className="group">
+                            <div
+                                className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                <Image src={Balltrap} alt="KartThemAll present at NumerikGames festival"
+                                       className="h-full w-full object-cover object-center group-hover:opacity-75"/>
+                            </div>
+                            <Link href="/projects/Balltrap">
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ball-trap</h5>
+                            </Link>
+                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                Graph that shown the trajectory of a disc during a ball trap competition.
+                            </p>
+                        </Link>
+
+                        <Link href="/projects/newsapp" className="group">
+                            <div
+                                className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                <Image src={newsapp} alt="KartThemAll present at NumerikGames festival"
+                                       className="h-full w-full object-cover object-center group-hover:opacity-75"/>
+                            </div>
+                            <Link href="/projects/newsapp">
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">News app</h5>
+                            </Link>
+                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                Website using laravel to create and host a site of news.
+                            </p>
+                        </Link>
+
+                        <Link href="/projects/weather" className="group">
+                            <div
+                                className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                <Image src={weather} alt="KartThemAll present at NumerikGames festival"
+                                       className="h-full w-full object-cover object-center group-hover:opacity-75"/>
+                            </div>
+                            <Link href="/projects/weather">
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">weather</h5>
+                            </Link>
+                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                                A 3D web site of the current weather.
                             </p>
                         </Link>
 
