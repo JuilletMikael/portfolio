@@ -71,7 +71,7 @@ export default function Page() {
                         className="relative mx-auto border-gray-800 dark:border-gray-800 bg-gray-800 border-[16px] rounded-t-xl h-[172px] max-w-[301px] md:h-[294px] md:max-w-[512px]">
                         <div className="rounded-xl overflow-hidden h-[140px] md:h-[262px]">
                             <video className="w-full h-full" autoPlay muted controls>
-                                <source src="/projects/Kartthemall/kta.mp4" type="video/mp4"/>
+                                <source src="/projects/kartthemall/kta.mp4" type="video/mp4"/>
                                     Your browser does not support the video tag.
                             </video>
                         </div>

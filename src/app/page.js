@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from 'next/link';
-import KartThemAll from '/public/projects/Kartthemall/kta-800-800.jpg';
+import kartthemall from '/public/projects/kartthemall/kta-800-800.jpg';
 import Mail from '/public/Gmail_Logo_256px.png';
 import Github from '/public/github-mark.png';
 import Linkedin from '/public/LI-In-Bug.png';
 import portfolio from "../../public/projects/portfolio/portfolio-800-800.png";
 import stellarmap from "../../public/projects/stellarmap/stlm-800-800.png";
-import Balltrap from "../../public/projects/Balltrap/800-800.jpg";
+import balltrap from "../../public/projects/balltrap/800-800.jpg";
 import newsapp from "../../public/projects/newsapp/800-800.jpg";
 import weather from "../../public/projects/weather/800-800.jpg";
 
@@ -51,7 +51,7 @@ export default function Home() {
                   className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 xl:gap-x-8">
                 <Link href="/projects/kartthemall" className="group">
                   <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                    <Image src={KartThemAll} alt="KartThemAll present at NumerikGames festival"
+                    <Image src={kartthemall} alt="KartThemAll present at NumerikGames festival"
                            className="h-full w-full object-cover object-center group-hover:opacity-75"/>
                   </div>
                   <Link href="/projects/kartthemall">
@@ -90,13 +90,13 @@ export default function Home() {
                   </p>
                 </Link>
 
-                <Link href="/projects/Balltrap" className="group">
+                <Link href="/projects/balltrap" className="group">
                   <div
                       className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
-                    <Image src={Balltrap} alt="KartThemAll present at NumerikGames festival"
+                    <Image src={balltrap} alt="KartThemAll present at NumerikGames festival"
                            className="h-full w-full object-cover object-center group-hover:opacity-75"/>
                   </div>
-                  <Link href="/projects/Balltrap">
+                  <Link href="/projects/balltrap">
                     <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ball-trap</h5>
                   </Link>
                   <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">

@@ -51,7 +51,7 @@ update it with your environment's values.
 ├───public                  //Web files (routes)
 │   ├───documents
 │   └───projects
-│       ├───Kartthemall
+│       ├───kartthemall
 │       ├───portfolio
 │       └───stellarmap
 └───src                      // externals files

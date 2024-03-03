@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import balltrap from "/public/projects/Balltrap/800-800.jpg"
+import balltrap from "/public/projects/balltrap/800-800.jpg"
 
 export default function Page() {
     return (
@@ -16,7 +16,7 @@ export default function Page() {
             </Link>
 
             <h1 className="mb-8 text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
-                StellarMap
+                Ball trap
             </h1>
 
             <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 xl:gap-x-2">
