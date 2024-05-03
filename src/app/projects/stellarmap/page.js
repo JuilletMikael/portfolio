@@ -113,8 +113,7 @@ export default function Page() {
                         &#34;Horizon View&#34; API for precise spatial object information and the &#34;Near Earth Object&#34; API for
                         approximating the placement of asteroids in proximity to Earth. The development is aligned with
                         the established evaluation criteria set by the Canton of Vaud, emphasizing the creation of a 3D
-                        solar system visualization accessible on various devices. The culmination of this effort will be
-                        presented on June 12th at 2:50 pm in room C315 at the professional center in Sainte-Croix.
+                        solar system visualization accessible on various devices.
                     </p>
                 </div>
                 <div className="mb-4">
