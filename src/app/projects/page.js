@@ -11,7 +11,7 @@ import weather from "../../../public/projects/weather/800-800.jpg";
 export default function Page() {
     return (
         <div className="items-center mb-4">
-            <h1 className="mb-8 text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl dark:text-white">
+            <h1 className="mb-8 text-3xl font-extrabold tracking-tight leading-none text-gray-900 md:text-4xl lg:text-5xl">
                 Projects
             </h1>
 
@@ -26,9 +26,9 @@ export default function Page() {
                                        className="h-full w-full object-cover object-center group-hover:opacity-75"/>
                             </div>
                             <Link href="/projects/kartthemall">
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">KartThemAll</h5>
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">KartThemAll</h5>
                             </Link>
-                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                            <p className="mb-3 font-normal text-gray-700">
                                 Take on your friends in this frenetic party-game, dodging attacks with your kart and flying enemies off the track with bonus items thanks to its over-the-top physics.
                             </p>
                         </Link>
@@ -40,9 +40,9 @@ export default function Page() {
                                        className="h-full w-full object-cover object-center group-hover:opacity-75"/>
                             </div>
                             <Link href="/projects/portfolio">
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">My Portfolio</h5>
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">My Portfolio</h5>
                             </Link>
-                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                            <p className="mb-3 font-normal text-gray-700">
                                 I turned my portfolio into a showcase of not just my projects but also my tech skills.
                             </p>
                         </Link>
@@ -54,9 +54,9 @@ export default function Page() {
                                        className="h-full w-full object-cover object-center group-hover:opacity-75"/>
                             </div>
                             <Link href="/projects/stellarmap">
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">StellarMap</h5>
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">StellarMap</h5>
                             </Link>
-                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                            <p className="mb-3 font-normal text-gray-700">
                                 StellarMap represent the solar system on an interactive 3D map.
                             </p>
                         </Link>
@@ -68,9 +68,9 @@ export default function Page() {
                                        className="h-full w-full object-cover object-center group-hover:opacity-75"/>
                             </div>
                             <Link href="/projects/balltrap">
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ball-trap</h5>
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Ball-trap</h5>
                             </Link>
-                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                            <p className="mb-3 font-normal text-gray-700">
                                 Graph that shown the trajectory of a disc during a ball trap competition.
                             </p>
                         </Link>
@@ -82,9 +82,9 @@ export default function Page() {
                                        className="h-full w-full object-cover object-center group-hover:opacity-75"/>
                             </div>
                             <Link href="/projects/newsapp">
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">News app</h5>
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">News app</h5>
                             </Link>
-                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                            <p className="mb-3 font-normal text-gray-700">
                                 Website using laravel to create and host a site of news.
                             </p>
                         </Link>
@@ -96,9 +96,9 @@ export default function Page() {
                                        className="h-full w-full object-cover object-center group-hover:opacity-75"/>
                             </div>
                             <Link href="/projects/weather">
-                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">weather</h5>
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">weather</h5>
                             </Link>
-                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                            <p className="mb-3 font-normal text-gray-700">
                                 A 3D web site of the current weather.
                             </p>
                         </Link>

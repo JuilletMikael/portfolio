@@ -7,10 +7,10 @@ import Linkedin from '/public/LI-In-Bug.png';
 export default function Page() {
     return (
 
-        <section className="bg-white dark:bg-gray-900">
+        <section className="bg-white">
             <div className="max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
                 <div className="mr-auto place-self-center lg:col-span-7">
-                    <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">Let&#39;s connect</h1>
+                    <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl">Let&#39;s connect</h1>
 
                     <div className="mx-auto max-w-7xl px-6 lg:px-8 align-middle">
                         <div className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none">

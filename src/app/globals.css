@@ -29,3 +29,11 @@ main {
     text-wrap: balance;
   }
 }
+
+.hero-banner-custom {
+  height: 80vh;
+}
+
+.text-vertical {
+  writing-mode: vertical-lr;
+}

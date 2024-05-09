@@ -18,7 +18,8 @@ import {
   NavbarToggle,
 } from 'flowbite-react';
 import { ThemeModeScript } from 'flowbite-react';
-import { DarkThemeToggle, Flowbite } from 'flowbite-react';
+import { Flowbite } from 'flowbite-react';
+import {black} from "next/dist/lib/picocolors";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,10 +30,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-      <html lang="en" className="dark">
+      <html lang="en" className="light">
       <Head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <title>Mikael JUILLET</title>
+        <title className="border-gray-200">Mikael JUILLET</title>
         <ThemeModeScript />
       </Head>
 
@@ -41,7 +42,7 @@ export default function RootLayout({ children }) {
       <Navbar fluid rounded>
         <NavbarBrand href="/">
           <Image className="w-10 h-10 rounded-full mr-2" src={profilePic} alt="Mikael JUILLET"/>
-          <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Mikael JUILLET</span>
+          <span className="self-center whitespace-nowrap text-xl font-semibold ">Mikael JUILLET</span>
         </NavbarBrand>
         <NavbarToggle/>
         <NavbarCollapse>
@@ -52,7 +53,7 @@ export default function RootLayout({ children }) {
         </NavbarCollapse>
       </Navbar>
 
-      <div className="p-4 bg-gray-100 dark:bg-gray-900">
+      <div className="p-4 bg-gray-100">
         <main>
           {children}
         </main>
@@ -79,7 +80,7 @@ export default function RootLayout({ children }) {
               <span className="sr-only">GitHub account</span>
             </a>
             <a href="mailto:juillet.mikael@gmail.com"
-               className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5 align-middle">
+               className="text-gray-500 hover:text-gray-900 ms-5 align-middle">
               <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor"
                    viewBox="0 0 24 24">
                 <path
@@ -90,7 +91,6 @@ export default function RootLayout({ children }) {
               <span className="sr-only">Mail</span>
             </a>
           </div>
-          <DarkThemeToggle />
         </div>
       </div>
       <Script src="../path/to/flowbite/dist/flowbite.min.js"></Script>

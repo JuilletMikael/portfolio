@@ -16,20 +16,32 @@ export default function Home() {
       <div className="p-4">
         <div className="mb-4">
           <div className="flex items-center h-24 rounded">
-            <span className="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-green-900 dark:text-green-300">
+            <span className="bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded">
               &#x2022; Open To Work
             </span>
           </div>
         </div>
-        <div className="items-center mb-4">
-          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-            Programming a World of Tolerance in Every Byte.
+        <div className="items-center mb-4 hero-banner-custom">
+
+          <div className="grid grid-cols-3 gap-4">
+            <div className="text-vertical mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">Mikael JUILLET</div>
+            <div className="col-span-2">Programming a World of Tolerance in Every Byte.</div>
+            <div className="col-span-2 ...">04</div>
+            <div className="...">05</div>
+            <div className="...">06</div>
+            <div className="col-span-2 ...">07</div>
+          </div>
+
+          <h1 className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl">
+
           </h1>
-          <p className="text-lg font-normal text-gray-500 dark:text-gray-400 mb-4 ">
-            I am a young student specializing in application development, with a passion for development, aeronautics and eco-innovation. Geographically mobile, I work on various projects of all kinds, from video games, mobile applications to electronic projects.
+          <p className="text-lg font-normal text-gray-500  mb-4 ">
+            I am a young student specializing in application development, with a passion for development, aeronautics
+            and eco-innovation. Geographically mobile, I work on various projects of all kinds, from video games, mobile
+            applications to electronic projects.
           </p>
           <Link href="/about"
-             className="inline-flex border border-gray-800 items-center px-5 py-2.5 text-sm font-medium text-center text-gray-900 hover:text-white rounded-lg hover:bg-gray-900 focus:ring-4 focus:outline-none rounded-lg focus:ring-gray-300 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                className="inline-flex border border-gray-800 items-center px-5 py-2.5 text-sm font-medium text-center text-gray-900 hover:text-white rounded-lg hover:bg-gray-900 focus:ring-4 focus:outline-none rounded-lg focus:ring-gray-300 ">
             More about Me
             <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                  fill="none" viewBox="0 0 14 10">
@@ -39,11 +51,11 @@ export default function Home() {
           </Link>
         </div>
 
-        <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"/>
+        <hr className="h-px my-8 bg-gray-200 border-0"/>
 
         <div className="items-center mb-4">
 
-          <h2 className="text-4xl font-bold dark:text-white my-8">Recent Projects</h2>
+          <h2 className="text-gray-900 text-4xl font-bold my-8">Recent Projects</h2>
 
           <div>
             <div className="mx-auto">
@@ -55,9 +67,9 @@ export default function Home() {
                            className="h-full w-full object-cover object-center group-hover:opacity-75"/>
                   </div>
                   <Link href="/projects/kartthemall">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">KartThemAll</h5>
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">KartThemAll</h5>
                   </Link>
-                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-3 font-normal text-gray-700 ">
                     Take on your friends in this frenetic party-game, dodging attacks with your kart and flying enemies off the track with bonus items thanks to its over-the-top physics.
                   </p>
                 </Link>
@@ -69,9 +81,9 @@ export default function Home() {
                            className="h-full w-full object-cover object-center group-hover:opacity-75"/>
                   </div>
                   <Link href="/projects/portfolio">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">My Portfolio</h5>
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">My Portfolio</h5>
                   </Link>
-                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-3 font-normal text-gray-700 ">
                     I turned my portfolio into a showcase of not just my projects but also my tech skills.
                   </p>
                 </Link>
@@ -83,9 +95,9 @@ export default function Home() {
                            className="h-full w-full object-cover object-center group-hover:opacity-75"/>
                   </div>
                   <Link href="/projects/stellarmap">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">StellarMap</h5>
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">StellarMap</h5>
                   </Link>
-                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-3 font-normal text-gray-700 ">
                     StellarMap represent the solar system on an interactive 3D map.
                   </p>
                 </Link>
@@ -97,9 +109,9 @@ export default function Home() {
                            className="h-full w-full object-cover object-center group-hover:opacity-75"/>
                   </div>
                   <Link href="/projects/balltrap">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Ball-trap</h5>
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">Ball-trap</h5>
                   </Link>
-                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-3 font-normal text-gray-700 ">
                     Graph that shown the trajectory of a disc during a ball trap competition.
                   </p>
                 </Link>
@@ -111,9 +123,9 @@ export default function Home() {
                            className="h-full w-full object-cover object-center group-hover:opacity-75"/>
                   </div>
                   <Link href="/projects/newsapp" className="group">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">News app</h5>
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">News app</h5>
                   </Link>
-                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-3 font-normal text-gray-700 ">
                     Website using laravel to create and host a site of news.
                   </p>
                 </Link>
@@ -125,9 +137,9 @@ export default function Home() {
                            className="h-full w-full object-cover object-center group-hover:opacity-75"/>
                   </div>
                   <Link href="/projects/weather">
-                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">weather</h5>
+                    <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">weather</h5>
                   </Link>
-                  <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  <p className="mb-3 font-normal text-gray-700 ">
                     A 3D web site of the current weather.
                   </p>
                 </Link>
@@ -135,7 +147,7 @@ export default function Home() {
               </div>
 
               <Link href="/projects"
-                 className="inline-flex border border-gray-800 items-center px-5 py-2.5 text-sm font-medium text-center text-gray-900 hover:text-white rounded-lg hover:bg-gray-900 focus:ring-4 focus:outline-none rounded-lg focus:ring-gray-300 dark:border-gray-600 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-800">
+                 className="inline-flex border border-gray-800 items-center px-5 py-2.5 text-sm font-medium text-center text-gray-900 hover:text-white rounded-lg hover:bg-gray-900 focus:ring-4 focus:outline-none rounded-lg focus:ring-gray-300">
                 All Projects
                 <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                      fill="none" viewBox="0 0 14 10">
@@ -147,10 +159,10 @@ export default function Home() {
           </div>
         </div>
 
-        <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700"/>
+        <hr className="h-px my-8 bg-gray-200 border-0"/>
 
         <div className="items-center mb-4">
-          <h2 className="text-4xl font-bold dark:text-white my-8">Let&#39;s connect</h2>
+          <h2 className="text-4xl font-bold my-8">Let&#39;s connect</h2>
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="mx-auto mt-10 grid max-w-lg grid-cols-3 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:gap-x-10 lg:mx-0 lg:max-w-none">
               <Link href="mailto:juillet.mikael@gmail.com"><Image class="col-span-2 max-h-12 w-full object-contain lg:col-span-1" src={Mail} alt="Gmail" width="158" height="48"/></Link>
