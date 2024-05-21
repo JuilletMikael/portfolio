@@ -6,6 +6,9 @@ import stellarmap from '/public/projects/stellarmap/stlm-800-800.png';
 import balltrap from "../../../public/projects/balltrap/800-800.jpg";
 import newsapp from "../../../public/projects/newsapp/800-800.jpg";
 import weather from "../../../public/projects/weather/800-800.jpg";
+import eggflix from "../../../public/projects/eggflix/800-800.png";
+import zangularhome from "../../../public/projects/zangularhome/800-800.png";
+import cleavercooks from "../../../public/projects/cleavercooks/800-800.png";
 
 
 export default function Page() {
@@ -44,6 +47,48 @@ export default function Page() {
                             </Link>
                             <p className="mb-3 font-normal text-gray-700">
                                 I turned my portfolio into a showcase of not just my projects but also my tech skills.
+                            </p>
+                        </Link>
+
+                        <Link href="/projects/zangularhome" className="group">
+                            <div
+                                className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                <Image src={zangularhome} alt="KartThemAll present at NumerikGames festival"
+                                       className="h-full w-full object-cover object-center group-hover:opacity-75"/>
+                            </div>
+                            <Link href="/projects/zangularhome">
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">ZangularHome</h5>
+                            </Link>
+                            <p className="mb-3 font-normal text-gray-700">
+                                An application that control lights in a house.
+                            </p>
+                        </Link>
+
+                        <Link href="/projects/eggflix" className="group">
+                            <div
+                                className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                <Image src={eggflix} alt="KartThemAll present at NumerikGames festival"
+                                       className="h-full w-full object-cover object-center group-hover:opacity-75"/>
+                            </div>
+                            <Link href="/projects/eggflix">
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">EggFlix</h5>
+                            </Link>
+                            <p className="mb-3 font-normal text-gray-700">
+                                Web site of movie rental service that use facebook SDK.
+                            </p>
+                        </Link>
+
+                        <Link href="/projects/cleavercooks" className="group">
+                            <div
+                                className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-h-8 xl:aspect-w-7">
+                                <Image src={cleavercooks} alt="KartThemAll present at NumerikGames festival"
+                                       className="h-full w-full object-cover object-center group-hover:opacity-75"/>
+                            </div>
+                            <Link href="/projects/cleavercooks">
+                                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900">CleaverCooks</h5>
+                            </Link>
+                            <p className="mb-3 font-normal text-gray-700">
+                                an application that identifies the food in our kitchen and suggests recipes based on what we have.
                             </p>
                         </Link>
 
