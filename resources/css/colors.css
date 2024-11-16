@@ -1,0 +1,49 @@
+:root {
+    --primary-color: #FCB533;
+    --secondary-color: #2B86E7;
+    --accent-color: #F46217;
+    --black-color: #0b0704;
+    --white-color: #f8f2e7;
+}
+
+.primary {
+    color: var(--primary-color);
+}
+
+.secondary {
+    color: var(--secondary-color);
+}
+
+.accent {
+    color: var(--accent-color);
+}
+
+.black {
+    color: var(--black-color);
+}
+
+.white {
+    color: var(--white-color);
+}
+
+.font_primary {
+    color: var(--primary-color);
+}
+
+.font_secondary {
+    color: var(--secondary-color);
+}
+
+.font_accent {
+    color: var(--accent-color);
+}
+
+.font_black {
+    color: var(--black-color);
+}
+
+.font_white {
+    color: var(--white-color);
+}
+
+

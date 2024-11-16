@@ -4,11 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Mikael Juillet</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap" rel="stylesheet">
 
         <!-- Styles / Scripts -->
         @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
@@ -20,21 +23,21 @@
         @endif
     </head>
     <body class="font-sans antialiased">
-    <div class="bg-green-950 h-screen w-full p-5">
-        <div class="relative isolate px-6 py-14 lg:px-8 h-full bg-cover" style="background-image: url('{{ asset('images/WhatsApp Image 2024-09-07 at 10.12.51.jpg') }}');">
+    <div class=" h-screen w-full p-5">
+        <div class="relative isolate px-6 py-14 lg:px-8 h-full bg-cover rounded" style="background-image: url('{{ asset('images/WhatsApp Image 2024-09-07 at 10.12.51.jpg') }}');">
             <div class="h-full mb-1"> <!--mx-auto max-w-2xs sm:py-48 lg:py-56-->
                 <div class="w-full text-right">
-                    <h2 class="text-balance text-xl font-semibold tracking-tight text-yellow-300 sm:text-xl noto-serif-100">Portfolio</h2>
+                    <h2 class="text-balance text-xl font-semibold tracking-tight font_primary sm:text-xl noto-serif-100">Portfolio</h2>
                 </div>
                 <div class="">
-                    <h1 class="text-balance huge font-semibold tracking-tight text-white uppercase noto-serif-100">
+                    <h1 class="text-balance huge font-semibold tracking-tight font_white uppercase noto-serif-100">
                         Mikael
                         <br>
                         Juillet
                     </h1>
                 </div>
                 <div class="bottom-20 absolute">
-                    <h2 class="text-balance text-xl font-semibold tracking-tight text-yellow-300 sm:text-xl noto-serif-100">
+                    <h2 class="text-balance text-xl font-semibold tracking-tight font_primary sm:text-xl noto-serif-100">
                         Développeur, photographe, écrivain et sportif.
                     </h2>
                 </div>
@@ -42,7 +45,7 @@
         </div>
     </div>
 
-    <div class="w-full h-screen bg-green-950">
+    <div class="w-full h-screen">
         <div class="">
 
         </div>

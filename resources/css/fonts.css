@@ -1,0 +1,27 @@
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.geist-400 {
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h1 {
+    font-family: "Permanent Marker", cursive;
+}
+
+* {
+    font-family: "Geist", sans-serif;
+}
+
+.huge {
+    font-size: 12.5vw;
+    line-height: 13vw;
+}
