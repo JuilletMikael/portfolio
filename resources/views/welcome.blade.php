@@ -23,22 +23,18 @@
         @endif
     </head>
     <body class="font-sans antialiased">
-    <div class=" h-screen w-full p-5">
-        <div class="relative isolate px-6 py-14 lg:px-8 h-full bg-cover rounded" style="background-image: url('{{ asset('images/WhatsApp Image 2024-09-07 at 10.12.51.jpg') }}');">
+    <div class="h-screen w-full p-5 flex justify-center">
+        <div class="relative isolate px-6 py-14 lg:px-8 h-full w-full bg-cover rounded" style="background-image: url('{{ asset('images/WhatsApp Image 2024-09-07 at 10.12.51.jpg') }}');"  id="hero_banner">
             <div class="h-full mb-1"> <!--mx-auto max-w-2xs sm:py-48 lg:py-56-->
                 <div class="w-full text-right">
-                    <h2 class="text-balance text-xl font-semibold tracking-tight font_primary sm:text-xl noto-serif-100">Portfolio</h2>
+                    <h2 class="text-balance text-xl font-semibold tracking-tight font_black sm:text-xl noto-serif-100">Portfolio</h2>
                 </div>
-                <div class="">
-                    <h1 class="text-balance huge font-semibold tracking-tight font_white uppercase noto-serif-100">
-                        Mikael
-                        <br>
-                        Juillet
+                <div class="bottom-1/2 absolute">
+                    <h1 class="text-balance huge font-semibold tracking-tight font_black uppercase noto-serif-100">
+                        Mikael Juillet
                     </h1>
-                </div>
-                <div class="bottom-20 absolute">
-                    <h2 class="text-balance text-xl font-semibold tracking-tight font_primary sm:text-xl noto-serif-100">
-                        Développeur, photographe, écrivain et sportif.
+                    <h2 class="text-balance text-xl font-semibold tracking-tight font_black sm:text-xl noto-serif-100">
+                        Créateur de liberté !
                     </h2>
                 </div>
             </div>
