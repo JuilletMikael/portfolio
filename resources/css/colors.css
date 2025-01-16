@@ -26,24 +26,42 @@
     color: var(--white-color);
 }
 
-.font_primary {
+.font-primary {
     color: var(--primary-color);
 }
 
-.font_secondary {
+.font-secondary {
     color: var(--secondary-color);
 }
 
-.font_accent {
+.font-accent {
     color: var(--accent-color);
 }
 
-.font_black {
+.font-black {
     color: var(--black-color);
 }
 
-.font_white {
+.font-white {
     color: var(--white-color);
 }
 
+.bg-primary {
+    background-color: var(--primary-color);
+}
 
+.bg-secondary {
+    background-color: var(--secondary-color);
+}
+
+.bg-accent {
+    background-color: var(--accent-color);
+}
+
+.bg-black {
+    background-color: var(--black-color);
+}
+
+.bg-white {
+    background-color: var(--white-color);
+}
