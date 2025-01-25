@@ -1,0 +1,17 @@
+{
+  "public/images/cartboard-paper.png": {
+    "file": "assets/cartboard-paper-P7ZPBzj-.png",
+    "src": "public/images/cartboard-paper.png"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-B8JNKHgN.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-z8A_VDJZ.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
