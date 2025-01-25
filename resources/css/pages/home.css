@@ -7,3 +7,14 @@
 
     }
 }
+
+.bg-image-cardboard {
+    top: 0;
+    left: 0;
+    width: 80%;
+    background-image: url("/public/images/cartboard-paper.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
